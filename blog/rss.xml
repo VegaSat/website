@@ -4,84 +4,113 @@
         <title>VegaSat - CanSat Blog</title>
         <link>https://cansat.si/blog</link>
         <description>VegaSat - CanSat Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://cansat.si/blog/welcome</link>
-            <guid>https://cansat.si/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://cansat.si/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>Facebook</category>
-            <category>Hello</category>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://cansat.si/blog/mdx-blog-post</link>
-            <guid>https://cansat.si/blog/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
+            <title><![CDATA[Testing our cansat]]></title>
+            <link>https://cansat.si/blog/testing-our-cansat</link>
+            <guid>https://cansat.si/blog/testing-our-cansat</guid>
+            <pubDate>Thu, 22 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[On Tuesday, 20. 6. our team visited the Aerodium vertical wind tunnel in Logatec, who have kindly allowed us to test our CanSat in their facility. Our parachute performed exceptionally well, but unfortunately, we ran into some issues with the battery so we couldn’t test our motors.]]></description>
+            <content:encoded><![CDATA[<p>On Tuesday, 20. 6. our team visited the Aerodium vertical wind tunnel in Logatec, who have kindly allowed us to test our CanSat in their facility. Our parachute performed exceptionally well, but unfortunately, we ran into some issues with the battery so we couldn’t test our motors.</p>
 <!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content:encoded>
-            <category>Docusaurus</category>
+<p><img decoding="async" loading="lazy" alt="Team member holding cansat in wind tunnel" src="https://cansat.si/assets/images/IMG_2114-dd75edda81ae396b8680d5c7488f8f4b.jpg" width="4000" height="6000" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Team picture 1" src="https://cansat.si/assets/images/IMG_2129-c3186ed0bf11657e45d3f6ba7e3cb1e9.jpg" width="6000" height="4000" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Team picture 1" src="https://cansat.si/assets/images/IMG_2137-72effc7474521c4f4059254f54a504b3.jpg" width="6000" height="4000" class="img_ev3q"></p>
+<p>The next day, we went on a trip to a military air base near Cerklje ob Krki, intending to test our locator and guidance systems, as well as the primary mission hardware and software. The test started off quite badly, as the L293D IC controlling our motors died and we had no spares, so we had no guidance.
+<img decoding="async" loading="lazy" alt="Military officer helipg us fix our cansat" src="https://cansat.si/assets/images/IMG_2143-f0cb457c96547a833df70b4c5ae60acc.jpg" width="6000" height="4000" class="img_ev3q"></p>
+<p>With that in mind, we set off to ascend to a kilometer aboard a Bell 206 helicopter of the Slovenian army. With help from two very kind soldiers, we successfully dropped the CanSat. Due to its small size, we were, unfortunately, unable to watch it descend.
+<img decoding="async" loading="lazy" alt="Team member standing with our cansat v1 the last time we saw it" src="https://cansat.si/assets/images/IMG_2154-6ed4d8a9ba35628bf519dcb39b0d96a9.jpg" width="6000" height="4000" class="img_ev3q"></p>
+<p>Here is where the real trouble began. Due to a malfunction in the ground station antenna, we received no data from the CanSat during its flight. But OK, it's a missed opportunity for a proper test, or so we thought. The bad news didn't end there. As we set off to recover our CanSat, we quickly realized the transmitter onboard had stopped transmitting. We had no way to find our CanSat using radios, and after three hours of sweeping the airfield, we gave up. We concluded that the antenna on the APC220 transmitter must have broken off during the harsh landing.
+<img decoding="async" loading="lazy" alt="A person driving a car on inactive runway looking for our cansat in the surrounding fields" src="https://cansat.si/assets/images/20230621_151904-442aa114d503e0ebbf1ea65bc9dd3f18.jpg" width="4000" height="3000" class="img_ev3q"></p>
+<p>We are now left without a CanSat, four days before we leave for Spain. But we will make it, we always have. This experience taught us many important lessons, which we are taking into consideration as we build CanSat #2. Our design has changed. Instead of four horizontal PCBs, which needed to be inter-connected, introducing multiple points of failure, we designed two vertical PCBs, independent of each other, thus reducing many points where our CanSat could fail. Besides getting rid of janky connections between PCBs, we also repositioned our antenna so that it takes up less space and can be additionally braced and reinforced. We also put the buzzer on a separate PCB, with its own battery. The motors now also have a switch to turn them off during testing.
+<img decoding="async" loading="lazy" alt="Messy workspace after rebuilding cansat in a day" src="https://cansat.si/assets/images/20230622_131249-f49d74a132493400a8dc7d4c789df444.jpg" width="4624" height="3468" class="img_ev3q"></p>
+<p>Despite our bad luck yesterday, we'd like to thank both Aerodium Logatec and the Slovenian army for helping us with our tests and teaching us many important lessons.</p>]]></content:encoded>
+            <category>VegaSat 2023</category>
         </item>
         <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://cansat.si/blog/long-blog-post</link>
-            <guid>https://cansat.si/blog/long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hello</category>
-            <category>Docusaurus</category>
+            <title><![CDATA[Reports]]></title>
+            <link>https://cansat.si/blog/reports</link>
+            <guid>https://cansat.si/blog/reports</guid>
+            <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post contains the 2 main documents we needed to submit to the ESA before the launch campaign. Critical Design Review (CDR) was submitted on 30th March and contains our idea of guided landing described in detail and the Pre Launch Report (PLR) that was submitted on 9th June and contains a description of every aspect of CanSat's operations.]]></description>
+            <content:encoded><![CDATA[<p>This post contains the 2 main documents we needed to submit to the ESA before the launch campaign. Critical Design Review (CDR) was submitted on 30th March and contains our idea of guided landing described in detail and the Pre Launch Report (PLR) that was submitted on 9th June and contains a description of every aspect of CanSat's operations.</p>
+<!-- -->
+<p><a href="https://cansat.si/assets/files/CDR2023-2f1d2a72c2fad31dfbd414f8763c1d02.pdf" target="_blank">Critical design review</a></p>
+<p><a href="https://cansat.si/assets/files/PLR2023-0e6bc03a78bf68006d711c27201f32b2.pdf" target="_blank">Pre launch report</a></p>]]></content:encoded>
+            <category>VegaSat 2023</category>
         </item>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://cansat.si/blog/first-blog-post</link>
-            <guid>https://cansat.si/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hola</category>
-            <category>Docusaurus</category>
+            <title><![CDATA[Making of the guidance transmitter]]></title>
+            <link>https://cansat.si/blog/making-of-the-guidance-transmitter</link>
+            <guid>https://cansat.si/blog/making-of-the-guidance-transmitter</guid>
+            <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today we'll write about how we made on-ground transmitters for the direction of our CanSat to the target landing location.]]></description>
+            <content:encoded><![CDATA[<p>Today we'll write about how we made on-ground transmitters for the direction of our CanSat to the target landing location.</p>
+<!-- -->
+<p>To begin with, let's explain our system in more detail. We will position 3 transmitters to known locations in advance of the takeoff. Because they all will transmit FM signal on the same frequency only one will get correctly received. Assume that is the signal transmitted by the closest transmitter. We want to go towards the target, so we have to push our can away from the transmitter.</p>
+<p>Since all locations of the transmitters will be chosen in advance and will be programmed in the controller we calculate the azimuth of the trust. With the help of the onboard compass, we can determine what power each of the 3 guiding motors has to move at.</p>
+<p>We devised our work into 3 parts.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 1 - Design internal circuitry for pulse generation</summary><div><div class="collapsibleContent_i85q"><p>Once it was inevitable to use a transmitter, we immediately started planning our form of signal. We had 3 main ideas, either 3 distinct ASCII letters, 3 binary digits (like 1010 1010, 1100 1100, 1111 0000), or a square wave at 3 different frequencies. We decided on the latter because it's easy to generate even without a microcontroller (more on that note later) and has a hardware pulse counter. Hopefully, it won't hog the processor. The frequencies chosen were 600 Hz, 800 Hz and 1000 Hz; which is way less than a maximum of 40 MHz.</p><p>Since we want to have the ground transmitter done we still decided to use Arduino Nano as the signal source, but have plans to migrate to a 555-timer circuit if we end up with enough time.</p><p>To power everything we decided to use REV batteries with XT30 plug as we have multiple of them from another competition (<a href="https://firstglobal.si/" target="_blank" rel="noopener noreferrer">https://firstglobal.si/</a>). They output 12 V which means we can directly power the Arduino with it. With DIP switches you can select what frequency it transmits. We didn't yet know what we'll use for the radio transmitter, so we made our output signal line level (amplitude is 1 V) and we added a voltage divider to lower Arduino's 5 V to 1 V.</p><p>The circuit is accessible <a href="https://cansat.si/assets/files/circuit-6b7f99267ccc4e0d028bdd339c5f3ede.png" target="_blank">here</a> and the code is <a href="https://cansat.si/assets/files/pcnt-440c0d42df2b3572a81827b64ab47cbb.h" target="_blank">here</a>.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 2 - Design antenna</summary><div><div class="collapsibleContent_i85q"><p>2nd big part of the work was to design an antenna. First, we tried a dipole. It worked, tho range was an obvious problem. We decided to build something more directional. Yagi-Uda antennas are perfect for that. We build dual polarised Yagi-Uda antenna since then it's less important how it's directed.</p><p>We model our antenna in MMANA software since it's quite simple to use, has many tutorials online and for what we needed is free to use. The model can be found <a href="https://cansat.si/assets/files/antenna-3acc1fe65990a265342ba147b1d6f768.png" target="_blank">here</a>. The 3D emission diagram is found <a href="https://cansat.si/assets/files/emission-f77b68b0542190221be78d54f7216a24.png" target="_blank">here</a>. We will build it out of measuring tape, PVC pipe, hot glue and zip ties.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 3 - Choose the right transmitter</summary><div><div class="collapsibleContent_i85q"><p>We chose SYN115 since that's what we already had on hand.</p></div></div></details>]]></content:encoded>
+            <category>VegaSat 2023</category>
+        </item>
+        <item>
+            <title><![CDATA[The past month]]></title>
+            <link>https://cansat.si/blog/the-past-month</link>
+            <guid>https://cansat.si/blog/the-past-month</guid>
+            <pubDate>Sat, 22 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello readers, it's been a while.]]></description>
+            <content:encoded><![CDATA[<p>Hello readers, it's been a while.</p>
+<p>We thought you might want to know what we've been up to during this time and, oh boy, we've been busy.</p>
+<!-- -->
+<p>During March, we were jump scared by the fast-approaching deadline for the Critical design report, which was at the end of said month. So we got to work. We chose and ordered most of the required parts, brainstormed designs for our guidance system, contacted some more possible sponsors, devised test plans, and wrote it all down. We got criticized by our mentors for most of the designs but in the end, it made the report even better. We look forward to hearing what ESA says about it on Wednesday though!</p>
+<p>But that's not all we've been up to. I've mentioned already we've been working on ways to test our work, and while most separate components can be tested in-house, the end product can not. On Thursday, April 20., we met with professor dr. Matevž Dular from the Faculty of Mechanical Engineering in Ljubljana about trying out our guidance system in their wind tunnel. He was on board with the idea and also gave us some valuable insights that might improve our cansat. One of the most important ones might be using a streamer strip instead of a conventional parachute to make the cansat easier to guide and make the impact of possible winds lower, so that's another piece of the puzzle that we have to test.</p>
+<p>So, we've been busy, but there is still a lot of work to do, so we have to get back to it! See you later!</p>]]></content:encoded>
+            <category>VegaSat 2023</category>
+        </item>
+        <item>
+            <title><![CDATA[Test of DTMF guidance system]]></title>
+            <link>https://cansat.si/blog/test-of-dtmf-guidance-system</link>
+            <guid>https://cansat.si/blog/test-of-dtmf-guidance-system</guid>
+            <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At today's meeting, our team performed a test of the DTMF system that is the base of our guiding system.]]></description>
+            <content:encoded><![CDATA[<p>At today's meeting, our team performed a test of the DTMF system that is the base of our guiding system.</p>
+<!-- -->
+<p>DTMF or dual-tone multi-frequency signalling was used in old telephones. Even now some phones can beep differently based on what number you pressed. Every digit, characters * and # and letters A to D have 2 assigned frequencies arranged like in table 1.</p>
+<table><thead><tr><th></th><th>1209 Hz</th><th>1336 Hz</th><th>1477 Hz</th><th>1633 Hz</th></tr></thead><tbody><tr><td>697 Hz</td><td>1</td><td>2</td><td>3</td><td>A</td></tr><tr><td>770 Hz</td><td>4</td><td>5</td><td>6</td><td>B</td></tr><tr><td>852 Hz</td><td>7</td><td>8</td><td>9</td><td>C</td></tr><tr><td>941 Hz</td><td>*</td><td>0</td><td>#</td><td>D</td></tr><tr><td>Table 1: DTMF frequencies combinations</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p>Most of our team members are now HAM radio operators and proud owners of our portable radios. Our mentor knew that those radios can transmit DTMF by pressing PTT (Push To Talk) button and a number button.</p>
+<p>How our guidance system works. Let's assume that we are using numbers 1, 4 and 7.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>How to choose the suitable numbers</summary><div><div class="collapsibleContent_i85q"><p>The numbers you chose have to have one common frequency. Therefore they have to be either in the same row or column.</p></div></div></details>
+<p>If we arrange those 3 transmitters in an equilateral triangle we can guide the receiver station to the middle of the triangle. To understand how that would work one first needs to understand the addition of sine waves.</p>
+<p>If you have multiple signals made of sine waves of multiple frequencies you can add all sinuses with the same frequency first and then add sums to get the sum of all signals. Sum of 2 sine waves with same frequency will have the lowest amplitude if amplitude of both of them is equal (it will be 0 if signals are 180° out of phase).</p>
+<p><img decoding="async" loading="lazy" alt="Graph" src="https://cansat.si/assets/images/graph-a81327f3f7b1b212495808044ef744d8.gif" width="640" height="480" class="img_ev3q"></p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Graph exlanation</summary><div><div class="collapsibleContent_i85q"><p>Although the graph shows 2 waves it works similarly with 3.</p><ul>
+<li>The light blue line shows the output signal of station 1</li>
+<li>The light green line shows the output signal of station 2</li>
+<li>The blue line shows the received signal from station 1</li>
+<li>The green line shows the received signal from station 2</li>
+<li>The purple line shows the sum of received signals
+For 3 stations just imagine one graph like this for every pair.</li>
+</ul></div></div></details>
+<p>The amplitude of the sum can be used to find the distance from centerpoint of transmitting stations to the receiver. If we have 3 of those differences, we can try to minimise all of them and when the amplitude if all received sine waves is smallest we know we hit the center of the triangle.</p>]]></content:encoded>
+            <category>VegaSat 2023</category>
+        </item>
+        <item>
+            <title><![CDATA[Our first meeting with ESA]]></title>
+            <link>https://cansat.si/blog/our-first-meeting-with-esa</link>
+            <guid>https://cansat.si/blog/our-first-meeting-with-esa</guid>
+            <pubDate>Thu, 12 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday, 11.1.2023, we met with members of the commission from the European Space Agency and the Slovakian team, which is enrolling in the CanSat competition for the first time this year. We presented our secondary mission to the commission and admired the very interesting goals the Slovakian team have set themselves.]]></description>
+            <content:encoded><![CDATA[<p>Yesterday, 11.1.2023, we met with members of the commission from the European Space Agency and the Slovakian team, which is enrolling in the CanSat competition for the first time this year. We presented our secondary mission to the commission and admired the very interesting goals the Slovakian team have set themselves.</p>
+<!-- -->
+<p>We, however, have also set ourselves quite a goal, commented on by ESA’s commission as “rarely successful”. Our mission is split into multiple parts, the first and main of which is to attempt a directed landing. During the mission, we will be collecting loads of data about our cansat’s speed, attitude, altitude and location, as well as the data we are collecting as part of our primary mission. Using this data, we will create an animation of the flight in Blender. We are also planning to build self-rotating antennas that track our cansat.</p>
+<p>As for now, we're off to work on our mission.</p>
+<p>See you in our next post!</p>]]></content:encoded>
+            <category>VegaSat 2023</category>
         </item>
     </channel>
 </rss>

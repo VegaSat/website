@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvegasat=self.webpackChunkvegasat||[]).push([[121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"VegaSat 2023","permalink":"/blog/tags/2023","description":"VegaSat 2023","count":6}]}')}}]);
