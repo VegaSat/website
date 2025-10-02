@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">VegaSat - CanSat</title><meta data-rh="true" property="og:title" content="VegaSat - CanSat"><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://cansat.si/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://cansat.si/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://cansat.si/scorpius"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://cansat.si/scorpius"><link data-rh="true" rel="alternate" href="https://cansat.si/scorpius" hreflang="en"><link data-rh="true" rel="alternate" href="https://cansat.si/scorpius" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="VegaSat - CanSat RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="VegaSat - CanSat Atom Feed"><link rel="stylesheet" href="/assets/css/styles.64f112e2.css">
+<script src="/assets/js/runtime~main.6b233595.js" defer="defer"></script>
+<script src="/assets/js/main.df4ec2f0.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="img/SCORPIUS-Header-COLORED.svg"><link rel="preload" as="image" href="img/SCORPIUS-Stars-COLORED.svg"><div class="scorpius-root"><style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+        .scorpius-root{
+          --midnight:#0a0a0a;
+          --starlight:#f5f5f5;
+          --antares:#b31e3d;
+          margin: 0;
+          padding: 0;
+          background: var(--midnight);
+          color: var(--starlight);
+          font-family: 'Source Sans Pro', sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          text-align: center;
+          overflow: hidden;
+        }
+
+        /* Header wrapper with animation */
+        .scorpius-root .header-wrapper{
+          display:inline-block;
+          position:relative;
+          padding:6px;
+          border-radius:8px;
+          margin-bottom:0.5rem;
+        }
+
+        /* Pulsing glow behind the header */
+        .scorpius-root .header-wrapper::after{
+          content: "";
+          position: absolute;
+          inset: -18%;
+          border-radius: 12px;
+          background: radial-gradient(circle at 30% 20%, rgba(179,30,61,0.24), rgba(179,30,61,0.06) 14%, transparent 36%);
+          filter: blur(12px);
+          opacity: 0.95;
+          z-index: -1;
+          transform: scale(0.95);
+          animation: pulseGlow 2.6s ease-in-out infinite;
+          pointer-events:none;
+        }
+
+        @keyframes pulseGlow {
+          0%   { transform: scale(0.95); opacity: 0.72; }
+          50%  { transform: scale(1.12); opacity: 1; }
+          100% { transform: scale(0.95); opacity: 0.76; }
+        }
+
+        /* Header SVG */
+        .scorpius-root #scorpius-header {
+          display:block;
+          width: min(680px, 78vw);
+          height: auto;
+          user-select: none;
+          -webkit-user-drag: none;
+        }
+
+        /* Subtitle */
+        .scorpius-root h2 {
+          font-family: 'Playfair Display', serif;
+          font-size: 1.3rem;
+          font-weight: 400;
+          color: #f5f5f5;
+          margin: 0.6rem 0 2rem 0;
+          opacity: 0.95;
+        }
+
+        /* Floating stars */
+        .scorpius-root .scorpion {
+          width: 180px;
+          height: auto;
+          animation: float 4s ease-in-out infinite;
+          filter: drop-shadow(0 0 10px rgba(179, 30, 61, 0.6));
+          display:block;
+          margin: 0 auto;
+          -webkit-user-drag: none;
+        }
+
+        /* Coming Soon in Playfair Display */
+        .scorpius-root .coming {
+          margin-top: 3rem;
+          font-size: 1.2rem;
+          color: #aaa;
+          letter-spacing: 0.05em;
+          font-family: 'Playfair Display', serif;
+          animation: fade 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-15px); }
+        }
+
+        @keyframes fade {
+          from { opacity: 0.45; }
+          to   { opacity: 1; }
+        }
+
+        @media (max-width:520px) {
+          .scorpius-root #scorpius-header { width: min(420px, 92vw); }
+          .scorpius-root .scorpion { width: 140px; }
+        }
+      </style><div class="header-wrapper" aria-hidden="false"><img id="scorpius-header" src="img/SCORPIUS-Header-COLORED.svg" alt="SCORPIUS"></div><h2>CanSat team 2025/26</h2><img src="img/SCORPIUS-Stars-COLORED.svg" class="scorpion" alt="Scorpius emblem"><p class="coming">Coming Soon</p></div></div>
+</body>
+</html>
