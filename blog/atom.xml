@@ -2,11 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cansat.si/blog</id>
     <title>VegaSat - CanSat Blog</title>
-    <updated>2023-06-22T00:00:00.000Z</updated>
+    <updated>2026-01-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cansat.si/blog"/>
     <subtitle>VegaSat - CanSat Blog</subtitle>
     <icon>https://cansat.si/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Naš CanSat počasi nastaja]]></title>
+        <id>https://cansat.si/blog/nas-cansat-pocasi-nastaja</id>
+        <link href="https://cansat.si/blog/nas-cansat-pocasi-nastaja"/>
+        <updated>2026-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Naš CanSat je zasnovan kot modularna enota, ki omogoča zbiranje atmosferskih]]></summary>
+        <content type="html"><![CDATA[<p>Naš CanSat je zasnovan kot modularna enota, ki omogoča zbiranje atmosferskih
+podatkov in izvedbo avtonomnega pristanka. Večina strukture bo izdelana s
+3D-tiskanjem, saj ta način izdelave omogoča enostavno proizvodnjo, nizko maso in
+hitro prilagajanje zasnove.</p>
+<p>CanSat je sestavljen iz treh ločenih delov. V spodnjem delu so nameščene elektronske
+komponente, v srednjem delu je prostor, kamor se med vzponom zložijo ročice drona,
+zgornji del pa vsebuje servo mehanizem.</p>
+<h1>Razporeditev komponent</h1>
+<p>Komponente so razporejene vertikalno znotraj strukture. V zgornjem delu je nameščen
+servo mehanizem za postavitev ročic drona v položaj letenja, pod njim se nahajata
+flight controller in ESC, v srednjem delu baterija z GPS modulom, v spodnjem delu pa
+PCB z RF modulom.</p>
+<h1>Ohišje</h1>
+<p>Ohišje je cilindrične oblike s premerom 66 mm, kar je skladno z omejitvami
+tekmovanja. Skozi CanSat potekajo štiri luknje za kovinske palice, ki dodatno ojačajo
+strukturo satelita.</p>]]></content>
+        <author>
+            <name>Lin Cadez</name>
+        </author>
+        <category label="BeeSat 2025" term="BeeSat 2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Testing our cansat]]></title>
         <id>https://cansat.si/blog/testing-our-cansat</id>

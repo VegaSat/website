@@ -4,10 +4,34 @@
         <title>VegaSat - CanSat Blog</title>
         <link>https://cansat.si/blog</link>
         <description>VegaSat - CanSat Blog</description>
-        <lastBuildDate>Thu, 22 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Naš CanSat počasi nastaja]]></title>
+            <link>https://cansat.si/blog/nas-cansat-pocasi-nastaja</link>
+            <guid>https://cansat.si/blog/nas-cansat-pocasi-nastaja</guid>
+            <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Naš CanSat je zasnovan kot modularna enota, ki omogoča zbiranje atmosferskih]]></description>
+            <content:encoded><![CDATA[<p>Naš CanSat je zasnovan kot modularna enota, ki omogoča zbiranje atmosferskih
+podatkov in izvedbo avtonomnega pristanka. Večina strukture bo izdelana s
+3D-tiskanjem, saj ta način izdelave omogoča enostavno proizvodnjo, nizko maso in
+hitro prilagajanje zasnove.</p>
+<p>CanSat je sestavljen iz treh ločenih delov. V spodnjem delu so nameščene elektronske
+komponente, v srednjem delu je prostor, kamor se med vzponom zložijo ročice drona,
+zgornji del pa vsebuje servo mehanizem.</p>
+<h1>Razporeditev komponent</h1>
+<p>Komponente so razporejene vertikalno znotraj strukture. V zgornjem delu je nameščen
+servo mehanizem za postavitev ročic drona v položaj letenja, pod njim se nahajata
+flight controller in ESC, v srednjem delu baterija z GPS modulom, v spodnjem delu pa
+PCB z RF modulom.</p>
+<h1>Ohišje</h1>
+<p>Ohišje je cilindrične oblike s premerom 66 mm, kar je skladno z omejitvami
+tekmovanja. Skozi CanSat potekajo štiri luknje za kovinske palice, ki dodatno ojačajo
+strukturo satelita.</p>]]></content:encoded>
+            <category>BeeSat 2025</category>
+        </item>
         <item>
             <title><![CDATA[Testing our cansat]]></title>
             <link>https://cansat.si/blog/testing-our-cansat</link>
