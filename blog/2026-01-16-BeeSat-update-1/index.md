@@ -9,7 +9,7 @@ image: /img/cansat-development.png
 
 <!-- ![](/img/cansat-development.png) -->
 
-Naš CanSat je zasnovan kot modularna enota, ki omogoča zbiranje atmosferskih
+Naš super duper CanSat je zasnovan kot modularna enota, ki omogoča zbiranje atmosferskih
 podatkov in izvedbo avtonomnega pristanka. Večina strukture bo izdelana s
 3D-tiskanjem, saj ta način izdelave omogoča enostavno proizvodnjo, nizko maso in
 hitro prilagajanje zasnove.
