@@ -24,7 +24,7 @@ komponente. V srednjem delu je prostor, skozi katerega tečejo vse žice in kamo
 
 # Razporeditev komponent
 Komponente so razporejene vertikalno znotraj strukture. Kot že prej omenjeno - v zgornjem delu je nameščen
-servo mehanizem za postavitev ročic drona v položaj letenja. Pod njim se nahajata flight controller(FC) in electronic speed controller(ESC), ki sta odgovorna za delovanje in napajanje motorčkov. Čisto na dnu se nahaja baterija, pod njo pa še naš PCB, ki je bil izdelan po meri in RF modulom.
+servo mehanizem za postavitev ročic drona v položaj letenja. Pod njim se nahajata flight controller (FC) in electronic speed controller (ESC), ki sta odgovorna za delovanje in napajanje motorčkov. Čisto na dnu se nahaja baterija, pod njo pa še naš PCB, ki je bil izdelan po meri in RF modulom.
 
 # Dimenzije in materiali
 Ohišje je cilindrične oblike s premerom 66 mm in višino 115mm, kar je skladno z omejitvami
