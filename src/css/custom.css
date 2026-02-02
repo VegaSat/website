@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #D32334;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.sideBySide {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.sideBySide img {
+  max-width: 280px;
+}
