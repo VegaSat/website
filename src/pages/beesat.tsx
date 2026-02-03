@@ -43,11 +43,11 @@ export default function BeeSat() {
               </h1>
               <p class="hero-subtitle">Avtonomni pristanek. Brez padala.</p>
               <p class="hero-lead">
-                Razvijamo inovativen CanSat, ki se po izpustu spremeni v avtonomni dron in varno
-                pristane na določeno lokacijo. Revolucija v tehnologiji pristajanja satelitov.
+                Razvijamo inovativen CanSat, ki se ob padanju spremeni v avtonomni dron in varno
+                pristane na določeno lokacijo. Revolucija v tehnologiji avtonomnega pristanka satelitov.
               </p>
               <div class="hero-actions">
-                <a href="#misija" class="btn btn-primary">Odkrijte našo misijo</a>
+                <a href="#misija" class="btn btn-primary">Naša misija</a>
                 <a
                   href="https://www.instagram.com/team.beesat/"
                   target="_blank"
@@ -66,7 +66,7 @@ export default function BeeSat() {
                 <span class="section-kicker">Naša misija</span>
                 <h2 class="section-title">Drugačen način pristanka</h2>
                 <p class="section-text">
-                  Naša odprava je zasnovana kot dvostranska misija z uporabo cansata, ki združuje
+                  Naša odprava je zasnovana kot dvostopenjska misija z uporabo CanSat-a, ki združuje
                   zbiranje atmosferskih podatkov in avtonomno pristajanje na določeno lokacijo.
                 </p>
               </div>
@@ -84,7 +84,7 @@ export default function BeeSat() {
                   <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-6 h-6 text-primary"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div>
                   <h3>Natančna navigacija</h3>
                   <p>
-                    Dva GPS modula Beitian BN-180 in barometrični senzor BME680 zagotavljajo
+                    GPS modul Beitian BN-180 in barometrični senzor BME680 zagotavljata
                     natančno določanje lokacije in višine.
                   </p>
                 </div>
@@ -100,7 +100,7 @@ export default function BeeSat() {
                   <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-radio w-6 h-6 text-primary"><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"></path><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"></path><circle cx="12" cy="12" r="2"></circle><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"></path><path d="M19.1 4.9C23 8.8 23 15.1 19.1 19"></path></svg></div>
                   <h3>Telemetrija v realnem času</h3>
                   <p>
-                    RF modul APC220 na 433 MHz prenaša podatke na zemeljsko postajo z dinamičnim
+                    RF modul APC220 na 70cm bandu prenaša podatke na zemeljsko postajo z dinamičnim
                     sistemom za boljši sprejem signala.
                   </p>
                 </div>
@@ -108,20 +108,16 @@ export default function BeeSat() {
 
               <div class="grid stats">
                 <div class="stat">
-                  <div class="stat-value">1000m</div>
+                  <div class="stat-value">~1000m</div>
                   <div class="stat-label">Višina izpusta</div>
                 </div>
                 <div class="stat">
-                  <div class="stat-value">433MHz</div>
-                  <div class="stat-label">RF frekvenca</div>
+                  <div class="stat-value">70cm</div>
+                  <div class="stat-label">RF band</div>
                 </div>
                 <div class="stat">
                   <div class="stat-value">90-120s</div>
-                  <div class="stat-label">Čas leta</div>
-                </div>
-                <div class="stat">
-                  <div class="stat-value">66mm</div>
-                  <div class="stat-label">Premer ohišja</div>
+                  <div class="stat-label">Čas padanja</div>
                 </div>
               </div>
             </div>
@@ -180,12 +176,12 @@ export default function BeeSat() {
                     <strong>APC220</strong>
                   </div>
                   <div class="spec-row">
-                    <span>Frekvenca</span>
-                    <strong>433 MHz</strong>
+                    <span>Band</span>
+                    <strong>70cm</strong>
                   </div>
                   <div class="spec-row">
                     <span>Hitrost</span>
-                    <strong>Do 5000 bps</strong>
+                    <strong>Do 19200 bps</strong>
                   </div>
                   <div class="spec-row">
                     <span>Sprejem signala</span>
@@ -215,8 +211,8 @@ export default function BeeSat() {
                   <div>
                     <h4>CanSat programska oprema</h4>
                     <p>
-                      Modularna C++ koda na ESP32 mikrokontrolerju omogoča inicializacijo sistema,
-                      neprekinjeno zbiranje senzorskih podatkov, prenos telemetrije in sprožitev
+                      C++ koda na ESP32 mikrokontrolerju omogoča neprekinjeno zbiranje
+                      senzorskih podatkov, prenos telemetrije in sprožitev
                       avtonomnega letalnega sistema ob zaznavi prostega padanja.
                     </p>
                     <div class="tags">
@@ -228,7 +224,7 @@ export default function BeeSat() {
                   <div>
                     <h4>Zemeljska postaja</h4>
                     <p>
-                      Java aplikacija z grafičnim vmesnikom (GUI) za sprejem in razčlenjevanje
+                      Java aplikacija z grafičnim vmesnikom (GUI) za sprejem in obdelavo
                       podatkov, prikaz telemetrije v realnem času ter izvoz v CSV format za nadaljnjo
                       analizo.
                     </p>
@@ -261,7 +257,7 @@ export default function BeeSat() {
                   <div class="timeline-card complete">
                     <span class="timeline-kicker">Faza 1</span>
                     <h3>Zasnova in načrtovanje</h3>
-                    <p>Definicija ciljev misije, izbor komponent in priprava tehničnih načrtov.</p>
+                    <p>Definicija misije in arhitekture sistema.</p>
                   </div>
                 </div>
 
@@ -269,10 +265,9 @@ export default function BeeSat() {
                   <span class="timeline-dot"></span>
                   <div class="timeline-card complete">
                     <span class="timeline-kicker">Faza 2</span>
-                    <h3>Razvoj PCB in mehanske zasnove</h3>
+                    <h3>Konceptualiziranje sistema (avtonomni pristanek)</h3>
                     <p>
-                      3D-tiskanje ohišja iz PLA filamenta, izdelava PCB-ja po meri in integracija
-                      komponent.
+                      Brez padala, ročice z motorji, ideja drona.
                     </p>
                   </div>
                 </div>
@@ -281,10 +276,31 @@ export default function BeeSat() {
                   <span class="timeline-dot"></span>
                   <div class="timeline-card complete">
                     <span class="timeline-kicker">Faza 3</span>
-                    <h3>Testiranje komponent</h3>
+                    <h3>Zasnova in izdelava PCB v1</h3>
                     <p>
-                      Preizkus motorjev, flight controllerja, ESP32 in senzorjev za potrditev
-                      delovanja.
+                      Okrogel PCB z vsemi potrebnimi komponentami in povezavami.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <span class="timeline-dot complete"></span>
+                  <div class="timeline-card complete">
+                    <span class="timeline-kicker">Faza 4</span>
+                    <h3>3D zasnova ohišja</h3>
+                    <p>
+                      3D modeliranje ohišja pravih dimenzij. Reševanje prostorskih težav.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <span class="timeline-dot complete"></span>
+                  <div class="timeline-card complete">
+                    <span class="timeline-kicker">Faza 5</span>
+                    <h3>Načrt zemeljske postaje<h3>
+                    <p>
+                      Načrt in izdelava zemeljske postaje. ESP32, RF modul in rotator antene. Izdelava GUI-ja.
                     </p>
                   </div>
                 </div>
@@ -292,33 +308,43 @@ export default function BeeSat() {
                 <div class="timeline-item">
                   <span class="timeline-dot active"></span>
                   <div class="timeline-card active">
-                    <span class="timeline-kicker">Faza 4</span>
-                    <h3>Integracijski testi</h3>
-                    <p>
-                      Začetni testni poleti za preverjanje dviga drona, servo mehanizma in stabilnosti
-                      poleta.
-                    </p>
-                    <span class="timeline-status">V teku</span>
-                  </div>
-                </div>
-
-                <div class="timeline-item">
-                  <span class="timeline-dot muted"></span>
-                  <div class="timeline-card">
-                    <span class="timeline-kicker">Faza 5</span>
-                    <h3>Avtonomni testi</h3>
-                    <p>
-                      Daljši avtonomni testi z uporabo GPS koordinat za oceno natančnosti navigacije.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="timeline-item">
-                  <span class="timeline-dot muted"></span>
-                  <div class="timeline-card">
                     <span class="timeline-kicker">Faza 6</span>
-                    <h3>Finalna priprava</h3>
-                    <p>Končna optimizacija sistema in priprava na tekmovanje CanSat Slovenija.</p>
+                    <h3>Test osnovnega leta drona</h3>
+                    <p>Stabilen let drona v testnem ohišju.</p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <span class="timeline-dot muted"></span>
+                  <div class="timeline-card">
+                    <span class="timeline-kicker">Faza 7</span>
+                    <h3>Zasnova in izdelava PCB v2<h3>
+                    <p>
+                      Prilagoditec PCB-ja na prostorske omejitve, preureditev razporeditve komponent.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item">
+                  <span class="timeline-dot muted"></span>
+                  <div class="timeline-card">
+                    <span class="timeline-kicker">Faza 8</span>
+                    <h3>Test detekcije prostega pada<h3>
+                    <p>
+                      Določitev praga za potrditev padanja in odprtje rokic z motorji. 
+                    </p>
+                  </div>
+                </div>
+
+                
+                <div class="timeline-item">
+                  <span class="timeline-dot muted"></span>
+                  <div class="timeline-card">
+                    <span class="timeline-kicker">Faza 9</span>
+                    <h3>Celotni integracijski test<h3>
+                    <p>
+                      Test pod realnimi pogoji. 
+                    </p>
                   </div>
                 </div>
               </div>
@@ -335,7 +361,7 @@ export default function BeeSat() {
 
               <article class="blog-card">
                 <div class="blog-media">
-                  <img src="/img/cansat-development.png" alt="Razvoj CanSat - 3D modeliranje" />
+                  <img src="/img/beesat/cansat-development2.png" alt="Razvoj CanSat - 3D modeliranje" />
                 </div>
                 <div class="blog-body">
                   <div class="blog-meta">Januar 2026</div>
