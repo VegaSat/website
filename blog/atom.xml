@@ -2,13 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.vegasat.si/blog</id>
     <title>VegaSat - CanSat Blog</title>
-    <updated>2026-01-16T00:00:00.000Z</updated>
+    <updated>2026-03-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.vegasat.si/blog"/>
     <subtitle>VegaSat - CanSat Blog</subtitle>
     <icon>https://www.vegasat.si/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Naš CanSat počasi nastaja]]></title>
+        <title type="html"><![CDATA[Kako delamo na CanSatu - ScorpiusSat]]></title>
+        <id>https://www.vegasat.si/blog/scorpius-2</id>
+        <link href="https://www.vegasat.si/blog/scorpius-2"/>
+        <updated>2026-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Naše delo temelji na kombinaciji mehanskega in elektronskega razvoja. Ohišje je iz steklenih vlaken, notranjost pa je na 3D tiskanih ABS nosilcih. Elektronski sistem z ESP32 zbira podatke senzorjev in krmili servo motor padala, telemetrija pa poteka prek Digi XBee modula 868 MHz. Programska oprema uporablja modularni večnitni pristop z varnostnimi mehanizmi.]]></summary>
+        <content type="html"><![CDATA[<p>Naše delo temelji na kombinaciji mehanskega in elektronskega razvoja. Ohišje je iz steklenih vlaken, notranjost pa je na 3D tiskanih ABS nosilcih. Elektronski sistem z ESP32 zbira podatke senzorjev in krmili servo motor padala, telemetrija pa poteka prek Digi XBee modula 868 MHz. Programska oprema uporablja modularni večnitni pristop z varnostnimi mehanizmi.</p>
+]]></content>
+        <author>
+            <name>Luka Kljun</name>
+        </author>
+        <category label="Scorpius 2025" term="Scorpius 2025"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Naročilo PCB in izdelava elektronike]]></title>
+        <id>https://www.vegasat.si/blog/scorpius-4</id>
+        <link href="https://www.vegasat.si/blog/scorpius-4"/>
+        <updated>2026-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Za CanSat smo razvili lasten PCB, ki povezuje senzorje, generator in telemetrijski modul. Izbrali smo FR-4 laminat, predvideli pa tudi možnost fleksibilnih PCB-jev. Sistem vključuje stabilizacijo napetosti, zaščito pred previsoko napetostjo iz sekundarne misije ter merjenje toka in napetosti za spremljanje proizvodnje energije. Po naročilu PCB smo izvedli integracijske teste povezav in kompatibilnosti.]]></summary>
+        <content type="html"><![CDATA[<p>Za CanSat smo razvili lasten PCB, ki povezuje senzorje, generator in telemetrijski modul. Izbrali smo FR-4 laminat, predvideli pa tudi možnost fleksibilnih PCB-jev. Sistem vključuje stabilizacijo napetosti, zaščito pred previsoko napetostjo iz sekundarne misije ter merjenje toka in napetosti za spremljanje proizvodnje energije. Po naročilu PCB smo izvedli integracijske teste povezav in kompatibilnosti.</p>
+]]></content>
+        <author>
+            <name>Luka Kljun</name>
+        </author>
+        <category label="Scorpius 2025" term="Scorpius 2025"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Naš CanSat počasi nastaja - BeeSat]]></title>
         <id>https://www.vegasat.si/blog/nas-cansat-pocasi-nastaja</id>
         <link href="https://www.vegasat.si/blog/nas-cansat-pocasi-nastaja"/>
         <updated>2026-01-16T00:00:00.000Z</updated>
@@ -34,6 +60,45 @@ tekmovanja. CanSat je sestavljen iz treh delov, natisnjenih iz PLA plastike, ki 
             <name>Jure Grčar</name>
         </author>
         <category label="BeeSat 2025" term="BeeSat 2025"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sekundarna misija – regenerativni vetrni generator - ScorpiusSat]]></title>
+        <id>https://www.vegasat.si/blog/scorpius-3</id>
+        <link href="https://www.vegasat.si/blog/scorpius-3"/>
+        <updated>2026-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sekundarna misija preizkuša pridobivanje električne energije med spustom. Na spodnji del satelita smo namestili OT3569 vetrni generator, ki kinetično energijo zraka pretvarja v električno. Merimo odvisnost moči od hitrosti vrtenja in gostote zraka, hkrati pa vpliv oblike padala in konfiguracije propelerja na stabilnost in izkoristek. Do zdaj smo izmerili do 8 V napetosti.]]></summary>
+        <content type="html"><![CDATA[<p>Sekundarna misija preizkuša pridobivanje električne energije med spustom. Na spodnji del satelita smo namestili OT3569 vetrni generator, ki kinetično energijo zraka pretvarja v električno. Merimo odvisnost moči od hitrosti vrtenja in gostote zraka, hkrati pa vpliv oblike padala in konfiguracije propelerja na stabilnost in izkoristek. Do zdaj smo izmerili do 8 V napetosti.</p>
+]]></content>
+        <author>
+            <name>Luka Kljun</name>
+        </author>
+        <category label="Scorpius 2025" term="Scorpius 2025"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Začetek projekta ScorpiusSat]]></title>
+        <id>https://www.vegasat.si/blog/scorpius-1</id>
+        <link href="https://www.vegasat.si/blog/scorpius-1"/>
+        <updated>2025-11-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[V letošnjem letu smo se kot ekipa ScorpiusSat lotili izziva CanSat tekmovanja. Naš glavni cilj je bil razviti majhen satelit, ki med spuščanjem z višine meri atmosferske parametre in preizkusi sekundarno misijo regenerativnega pridobivanja električne energije. Vloge smo jasno razdelili, redna tedenska srečanja in komunikacija prek Discorda pa so omogočili napredek po načrtu.]]></summary>
+        <content type="html"><![CDATA[<p>V letošnjem letu smo se kot ekipa ScorpiusSat lotili izziva CanSat tekmovanja. Naš glavni cilj je bil razviti majhen satelit, ki med spuščanjem z višine meri atmosferske parametre in preizkusi sekundarno misijo regenerativnega pridobivanja električne energije. Vloge smo jasno razdelili, redna tedenska srečanja in komunikacija prek Discorda pa so omogočili napredek po načrtu.</p>
+]]></content>
+        <author>
+            <name>Luka Kljun</name>
+        </author>
+        <category label="Scorpius 2025" term="Scorpius 2025"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coming soon]]></title>
+        <id>https://www.vegasat.si/blog/scorpius-5</id>
+        <link href="https://www.vegasat.si/blog/scorpius-5"/>
+        <updated>2025-11-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TBD]]></summary>
+        <content type="html"><![CDATA[<p>TBD</p>
+]]></content>
+        <author>
+            <name>Luka Kljun</name>
+        </author>
+        <category label="Scorpius 2025" term="Scorpius 2025"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Testing our cansat]]></title>

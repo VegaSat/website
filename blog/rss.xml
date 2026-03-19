@@ -4,12 +4,32 @@
         <title>VegaSat - CanSat Blog</title>
         <link>https://www.vegasat.si/blog</link>
         <description>VegaSat - CanSat Blog</description>
-        <lastBuildDate>Fri, 16 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Naš CanSat počasi nastaja]]></title>
+            <title><![CDATA[Kako delamo na CanSatu - ScorpiusSat]]></title>
+            <link>https://www.vegasat.si/blog/scorpius-2</link>
+            <guid>https://www.vegasat.si/blog/scorpius-2</guid>
+            <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Naše delo temelji na kombinaciji mehanskega in elektronskega razvoja. Ohišje je iz steklenih vlaken, notranjost pa je na 3D tiskanih ABS nosilcih. Elektronski sistem z ESP32 zbira podatke senzorjev in krmili servo motor padala, telemetrija pa poteka prek Digi XBee modula 868 MHz. Programska oprema uporablja modularni večnitni pristop z varnostnimi mehanizmi.]]></description>
+            <content:encoded><![CDATA[<p>Naše delo temelji na kombinaciji mehanskega in elektronskega razvoja. Ohišje je iz steklenih vlaken, notranjost pa je na 3D tiskanih ABS nosilcih. Elektronski sistem z ESP32 zbira podatke senzorjev in krmili servo motor padala, telemetrija pa poteka prek Digi XBee modula 868 MHz. Programska oprema uporablja modularni večnitni pristop z varnostnimi mehanizmi.</p>
+]]></content:encoded>
+            <category>Scorpius 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[Naročilo PCB in izdelava elektronike]]></title>
+            <link>https://www.vegasat.si/blog/scorpius-4</link>
+            <guid>https://www.vegasat.si/blog/scorpius-4</guid>
+            <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Za CanSat smo razvili lasten PCB, ki povezuje senzorje, generator in telemetrijski modul. Izbrali smo FR-4 laminat, predvideli pa tudi možnost fleksibilnih PCB-jev. Sistem vključuje stabilizacijo napetosti, zaščito pred previsoko napetostjo iz sekundarne misije ter merjenje toka in napetosti za spremljanje proizvodnje energije. Po naročilu PCB smo izvedli integracijske teste povezav in kompatibilnosti.]]></description>
+            <content:encoded><![CDATA[<p>Za CanSat smo razvili lasten PCB, ki povezuje senzorje, generator in telemetrijski modul. Izbrali smo FR-4 laminat, predvideli pa tudi možnost fleksibilnih PCB-jev. Sistem vključuje stabilizacijo napetosti, zaščito pred previsoko napetostjo iz sekundarne misije ter merjenje toka in napetosti za spremljanje proizvodnje energije. Po naročilu PCB smo izvedli integracijske teste povezav in kompatibilnosti.</p>
+]]></content:encoded>
+            <category>Scorpius 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[Naš CanSat počasi nastaja - BeeSat]]></title>
             <link>https://www.vegasat.si/blog/nas-cansat-pocasi-nastaja</link>
             <guid>https://www.vegasat.si/blog/nas-cansat-pocasi-nastaja</guid>
             <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
@@ -29,6 +49,36 @@ servo mehanizem za postavitev ročic drona v položaj letenja. Pod njim se nahaj
 <p>Ohišje je cilindrične oblike s premerom 66 mm in višino 115mm, kar je skladno z omejitvami
 tekmovanja. CanSat je sestavljen iz treh delov, natisnjenih iz PLA plastike, ki so med seboj povezanih s kovinskimi vijaki.</p>]]></content:encoded>
             <category>BeeSat 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[Sekundarna misija – regenerativni vetrni generator - ScorpiusSat]]></title>
+            <link>https://www.vegasat.si/blog/scorpius-3</link>
+            <guid>https://www.vegasat.si/blog/scorpius-3</guid>
+            <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sekundarna misija preizkuša pridobivanje električne energije med spustom. Na spodnji del satelita smo namestili OT3569 vetrni generator, ki kinetično energijo zraka pretvarja v električno. Merimo odvisnost moči od hitrosti vrtenja in gostote zraka, hkrati pa vpliv oblike padala in konfiguracije propelerja na stabilnost in izkoristek. Do zdaj smo izmerili do 8 V napetosti.]]></description>
+            <content:encoded><![CDATA[<p>Sekundarna misija preizkuša pridobivanje električne energije med spustom. Na spodnji del satelita smo namestili OT3569 vetrni generator, ki kinetično energijo zraka pretvarja v električno. Merimo odvisnost moči od hitrosti vrtenja in gostote zraka, hkrati pa vpliv oblike padala in konfiguracije propelerja na stabilnost in izkoristek. Do zdaj smo izmerili do 8 V napetosti.</p>
+]]></content:encoded>
+            <category>Scorpius 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[Začetek projekta ScorpiusSat]]></title>
+            <link>https://www.vegasat.si/blog/scorpius-1</link>
+            <guid>https://www.vegasat.si/blog/scorpius-1</guid>
+            <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[V letošnjem letu smo se kot ekipa ScorpiusSat lotili izziva CanSat tekmovanja. Naš glavni cilj je bil razviti majhen satelit, ki med spuščanjem z višine meri atmosferske parametre in preizkusi sekundarno misijo regenerativnega pridobivanja električne energije. Vloge smo jasno razdelili, redna tedenska srečanja in komunikacija prek Discorda pa so omogočili napredek po načrtu.]]></description>
+            <content:encoded><![CDATA[<p>V letošnjem letu smo se kot ekipa ScorpiusSat lotili izziva CanSat tekmovanja. Naš glavni cilj je bil razviti majhen satelit, ki med spuščanjem z višine meri atmosferske parametre in preizkusi sekundarno misijo regenerativnega pridobivanja električne energije. Vloge smo jasno razdelili, redna tedenska srečanja in komunikacija prek Discorda pa so omogočili napredek po načrtu.</p>
+]]></content:encoded>
+            <category>Scorpius 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[Coming soon]]></title>
+            <link>https://www.vegasat.si/blog/scorpius-5</link>
+            <guid>https://www.vegasat.si/blog/scorpius-5</guid>
+            <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[TBD]]></description>
+            <content:encoded><![CDATA[<p>TBD</p>
+]]></content:encoded>
+            <category>Scorpius 2025</category>
         </item>
         <item>
             <title><![CDATA[Testing our cansat]]></title>
