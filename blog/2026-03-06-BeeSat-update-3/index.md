@@ -1,19 +1,21 @@
 ---
-title: Prvi testni polet
+title: Prvi testni polet - BeeSat
 slug: beesat-prvi-testni-polet
 authors: [lin-cadez]
 tags: [2025-beesat]
 image: /img/beesat/new-fc.jpg
 ---
 
-Z velikim ponosom lahko sporočimo, da smo uspešno izvedli **prvi testni polet našega CanSat-a**! 
+Z velikim ponosom lahko sporočimo, da smo uspešno izvedli **prvi testni polet našega CanSat-a**!
 
 <!-- truncate -->
 
 Ta test predstavlja enega ključnih mejnikov našega projekta, saj smo z njim dokazali, da naša osnovna ideja deluje tudi v praksi.
 
-🎥 Oglejte si kratek video testa, da vidite, kako leti naša čebel'ca:  
-https://youtube.com/shorts/ScsFvvAJW2I?si=XK4ekx_zApfigtvO
+🎥 Oglejte si kratek video testa, da vidite, kako leti naša čebel'ca:
+
+https://youtube.com/shorts/ScsFvvAJW2I
+
 <hr></hr>
 <div class="sideBySide">
 <img src="/img/beesat/new-fc.jpg"></img>

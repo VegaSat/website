@@ -1,5 +1,5 @@
 ---
-title: Naš CanSat počasi nastaja
+title: Naš CanSat počasi nastaja - BeeSat
 slug: nas-cansat-pocasi-nastaja
 authors: [lin-cadez, jure-grcar]
 tags: [2025-beesat]
@@ -17,7 +17,7 @@ hitro izdelavo novih prototipov.
 <img src="/img/beesat/3dmodel.png"></img>
 
 # Sestava CanSata
-Naš CanSat je v osnovi samo zložljiv FPV dron. Če bi želeli bi ga lahko upravljali celo z daljincem za drone. 
+Naš CanSat je v osnovi samo zložljiv FPV dron. Če bi želeli bi ga lahko upravljali celo z daljincem za drone.
 CanSat je sestavljen iz treh ločenih delov. V spodnjem delu so nameščene elektronske
 komponente. V srednjem delu je prostor, skozi katerega tečejo vse žice in kamor se med vzponom zložijo ročice drona, ki držijo motorčke. V zadnjem, zgornjem delu se nahaja ta GPS modul in servo motor, ki aktivira spustitev ročic.
 </div>
