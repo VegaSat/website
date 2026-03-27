@@ -5,7 +5,7 @@ lovro-govekar:
 luka-petek:
   name: Luka Petek
   page: true
-  
+
 jaka-kovac:
   name: Jaka Kovac
   page: true
@@ -16,4 +16,8 @@ lin-cadez:
 
 jure-grcar:
   name: Jure Grčar
+  page: true
+
+luka-kljun:
+  name: Luka Kljun
   page: true

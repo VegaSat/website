@@ -66,25 +66,30 @@ const blogs = [
 		title: 'Blog 1: Začetek letošnjega CanSat projekta ScorpiusSat',
 		detail:
 			'V letošnjem letu smo se kot ekipa ScorpiusSat lotili izziva CanSat tekmovanja. Naš glavni cilj je bil razviti majhen satelit, ki med spuščanjem z višine meri atmosferske parametre in preizkusi sekundarno misijo regenerativnega pridobivanja električne energije. Vloge smo jasno razdelili, redna tedenska srečanja in komunikacija prek Discorda pa so omogočili napredek po načrtu.',
+		link: 'scorpius-1',
 	},
 	{
 		title: 'Blog 2: Kako delamo na CanSatu',
 		detail:
 			'Naše delo temelji na kombinaciji mehanskega in elektronskega razvoja. Ohišje je iz steklenih vlaken, notranjost pa je na 3D tiskanih ABS nosilcih. Elektronski sistem z ESP32 zbira podatke senzorjev in krmili servo motor padala, telemetrija pa poteka prek Digi XBee modula 868 MHz. Programska oprema uporablja modularni večnitni pristop z varnostnimi mehanizmi.',
+		link: 'scorpius-2',
 	},
 	{
 		title: 'Blog 3: Sekundarna misija – regenerativni vetrni generator',
 		detail:
 			'Sekundarna misija preizkuša pridobivanje električne energije med spustom. Na spodnji del satelita smo namestili OT3569 vetrni generator, ki kinetično energijo zraka pretvarja v električno. Merimo odvisnost moči od hitrosti vrtenja in gostote zraka, hkrati pa vpliv oblike padala in konfiguracije propelerja na stabilnost in izkoristek. Do zdaj smo izmerili do 8 V napetosti.',
+		link: 'scorpius-3',
 	},
 	{
 		title: 'Blog 4: Naročilo PCB in izdelava elektronike',
 		detail:
 			'Za CanSat smo razvili lasten PCB, ki povezuje senzorje, generator in telemetrijski modul. Izbrali smo FR-4 laminat, predvideli pa tudi možnost fleksibilnih PCB-jev. Sistem vključuje stabilizacijo napetosti, zaščito pred previsoko napetostjo iz sekundarne misije ter merjenje toka in napetosti za spremljanje proizvodnje energije. Po naročilu PCB smo izvedli integracijske teste povezav in kompatibilnosti.',
+		link: 'scorpius-4',
 	},
 	{
-		title: 'Blog 5: Kmalu',
-		detail: 'Peti blog ekipe ScorpiusSat bo objavljen kmalu.',
+		title: 'Blog 5: Coming soon',
+		detail: 'TBD',
+		link: 'scorpius-5',
 	},
 ]
 
@@ -267,10 +272,12 @@ export default function ScorpiusPage() {
 						<h2>Preberi naše bloge o razvoju CanSata ScorpiusSat.</h2>
 						<div className="card-grid">
 							{blogs.map((blog) => (
-								<article key={blog.title} className="panel">
-									<h3>{blog.title}</h3>
-									<p>{blog.detail}</p>
-								</article>
+								<a href={`/blog/${blog.link}`} key={blog.title} className="blog-link">
+									<article key={blog.title} className="panel">
+										<h3>{blog.title}</h3>
+										<p>{blog.detail}</p>
+									</article>
+								</a>
 							))}
 						</div>
 					</div>
