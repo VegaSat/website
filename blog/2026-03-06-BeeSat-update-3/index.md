@@ -17,8 +17,8 @@ Ta test predstavlja enega ključnih mejnikov našega projekta, saj smo z njim do
 https://youtube.com/shorts/ScsFvvAJW2I
 
 <hr></hr>
-<div class="sideBySide">
-<img src="/img/beesat/new-fc.jpg"></img>
+![](/img/beesat/new-fc.jpg)
+
 ## Težave in izboljšave
 Kot pri vsakem pravem testu, tudi tukaj ni šlo vse popolnoma gladko – in prav to je del razvoja.
 
@@ -27,7 +27,6 @@ Med testiranjem smo ugotovili, da:
 - zato smo jih zamenjali z **žicami, obdanimi s silikonom**, ki bolje prenašajo temperaturo in tokovne obremenitve.
 
 Poleg tega smo spremenili tudi nekaj nastavitev na flight controllerju (FC), kar bo dodatno izboljšalo stabilnost satelita med letenjem.
-</div>
 
 ## Kaj sledi?
 
@@ -38,4 +37,4 @@ V naslednjih korakih se bomo osredotočili na:
 
 To je šele začetek – najbolj zanimiv del še prihaja!
 
-👉 Spremljajte nas tudi na Instagramu: **@team.beesat**
+👉 Spremljajte nas tudi na Instagramu: [**@team.beesat**](https://www.instagram.com/team.beesat)
