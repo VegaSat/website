@@ -4,10 +4,20 @@
         <title>VegaSat - CanSat Blog</title>
         <link>https://www.vegasat.si/blog</link>
         <description>VegaSat - CanSat Blog</description>
-        <lastBuildDate>Fri, 13 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Coming soon]]></title>
+            <link>https://www.vegasat.si/blog/scorpius-5</link>
+            <guid>https://www.vegasat.si/blog/scorpius-5</guid>
+            <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TBD]]></description>
+            <content:encoded><![CDATA[<p>TBD</p>
+]]></content:encoded>
+            <category>Scorpius 2025</category>
+        </item>
         <item>
             <title><![CDATA[Kako delamo na CanSatu - ScorpiusSat]]></title>
             <link>https://www.vegasat.si/blog/scorpius-2</link>
@@ -17,6 +27,66 @@
             <content:encoded><![CDATA[<p>Naše delo temelji na kombinaciji mehanskega in elektronskega razvoja. Ohišje je iz steklenih vlaken, notranjost pa je na 3D tiskanih ABS nosilcih. Elektronski sistem z ESP32 zbira podatke senzorjev in krmili servo motor padala, telemetrija pa poteka prek Digi XBee modula 868 MHz. Programska oprema uporablja modularni večnitni pristop z varnostnimi mehanizmi.</p>
 ]]></content:encoded>
             <category>Scorpius 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[Prvi testni polet - BeeSat]]></title>
+            <link>https://www.vegasat.si/blog/beesat-prvi-testni-polet</link>
+            <guid>https://www.vegasat.si/blog/beesat-prvi-testni-polet</guid>
+            <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Z velikim ponosom lahko sporočimo, da smo uspešno izvedli prvi testni polet našega CanSat-a!]]></description>
+            <content:encoded><![CDATA[<p>Z velikim ponosom lahko sporočimo, da smo uspešno izvedli <strong>prvi testni polet našega CanSat-a</strong>!</p>
+<p>Ta test predstavlja enega ključnih mejnikov našega projekta, saj smo z njim dokazali, da naša osnovna ideja deluje tudi v praksi.</p>
+<p>🎥 Oglejte si kratek video testa, da vidite, kako leti naša čebel'ca:</p>
+<p><a href="https://youtube.com/shorts/ScsFvvAJW2I" target="_blank" rel="noopener noreferrer" class="">https://youtube.com/shorts/ScsFvvAJW2I</a></p>
+<hr>
+<p><img decoding="async" loading="lazy" src="https://www.vegasat.si/assets/images/new-fc-75c0ac98e08ad9e0ce9be7e46fb3ba9f.jpg" width="8160" height="4592" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="težave-in-izboljšave">Težave in izboljšave<a href="https://www.vegasat.si/blog/beesat-prvi-testni-polet#te%C5%BEave-in-izbolj%C5%A1ave" class="hash-link" aria-label="Direct link to Težave in izboljšave" title="Direct link to Težave in izboljšave" translate="no">​</a></h2>
+<p>Kot pri vsakem pravem testu, tudi tukaj ni šlo vse popolnoma gladko – in prav to je del razvoja.</p>
+<p>Med testiranjem smo ugotovili, da:</p>
+<ul>
+<li class="">so se nam žice <strong>začele taliti zaradi obremenitve</strong>,</li>
+<li class="">zato smo jih zamenjali z <strong>žicami, obdanimi s silikonom</strong>, ki bolje prenašajo temperaturo in tokovne obremenitve.</li>
+</ul>
+<p>Poleg tega smo spremenili tudi nekaj nastavitev na flight controllerju (FC), kar bo dodatno izboljšalo stabilnost satelita med letenjem.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="kaj-sledi">Kaj sledi?<a href="https://www.vegasat.si/blog/beesat-prvi-testni-polet#kaj-sledi" class="hash-link" aria-label="Direct link to Kaj sledi?" title="Direct link to Kaj sledi?" translate="no">​</a></h2>
+<p>V naslednjih korakih se bomo osredotočili na:</p>
+<ul>
+<li class="">izboljšanje stabilizacije med letom,</li>
+<li class="">optimizacijo programske opreme,</li>
+<li class="">nadaljnje testne polete v realnih pogojih.</li>
+</ul>
+<p>To je šele začetek – najbolj zanimiv del še prihaja!</p>
+<p>👉 Spremljajte nas tudi na Instagramu: <a href="https://www.instagram.com/team.beesat" target="_blank" rel="noopener noreferrer" class=""><strong>@team.beesat</strong></a></p>]]></content:encoded>
+            <category>BeeSat 2025</category>
+        </item>
+        <item>
+            <title><![CDATA[BeeSat 2.0 in izboljšave zadnjih tednov]]></title>
+            <link>https://www.vegasat.si/blog/beesat-v2-in-izboljsave</link>
+            <guid>https://www.vegasat.si/blog/beesat-v2-in-izboljsave</guid>
+            <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[V zadnjih tednih smo naredili velik korak naprej pri razvoju našega CanSat-a.]]></description>
+            <content:encoded><![CDATA[<p>V zadnjih tednih smo naredili velik korak naprej pri razvoju našega CanSat-a.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="nova-verzija-vezja-v2">Nova verzija vezja (v2)<a href="https://www.vegasat.si/blog/beesat-v2-in-izboljsave#nova-verzija-vezja-v2" class="hash-link" aria-label="Direct link to Nova verzija vezja (v2)" title="Direct link to Nova verzija vezja (v2)" translate="no">​</a></h2>
+<p>Izdelali smo <strong>novo verzijo PCB-ja</strong>, kjer smo:</p>
+<ul>
+<li class="">integrirali vezje z <strong>beeperjem</strong> (prej ločeno),</li>
+<li class="">zmanjšali celotno velikost vezja,</li>
+<li class="">odstranili nepotrebne komponente (npr. reset gumb, statusne ledice).</li>
+</ul>
+<p>S tem smo optimizirali prostor in zmanjšali kompleksnost sistema, s čimer smo končno prišli v okvir maksimalnih prostorskih omejitev tekmovanja.</p>
+<img src="https://www.vegasat.si/img/beesat/cansat-development-beeslika.png">
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="izboljšan-mehanski-dizajn">Izboljšan mehanski dizajn<a href="https://www.vegasat.si/blog/beesat-v2-in-izboljsave#izbolj%C5%A1an-mehanski-dizajn" class="hash-link" aria-label="Direct link to Izboljšan mehanski dizajn" title="Direct link to Izboljšan mehanski dizajn" translate="no">​</a></h2>
+<p>Nekoliko smo prenovili tudi mehanizem letenja:</p>
+<ul>
+<li class="">poglobili smo sistem za odpiranje ročic,</li>
+<li class="">zdaj se <strong>ročice s propelerji v celoti pospravijo v notranjost satelita</strong>,</li>
+<li class="">zmanjšali smo zunanje mere, da ustrezamo tekmovalnim zahtevam (66 mm premer).</li>
+</ul>
+<p>Naša sekundarna misija o pristanku satelita brez padala je vedno bližje temu, da postane resničnost!!!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="kaj-sledi">Kaj sledi?<a href="https://www.vegasat.si/blog/beesat-v2-in-izboljsave#kaj-sledi" class="hash-link" aria-label="Direct link to Kaj sledi?" title="Direct link to Kaj sledi?" translate="no">​</a></h2>
+<p>V prihodnjih tednih bomo izvedli prvi testni polet in se posvetili programiranju zemeljske bazne postaje</p>
+<p>👉 Spremljajte naš napredek tudi na Instagramu! team.beesat</p>]]></content:encoded>
+            <category>BeeSat 2025</category>
         </item>
         <item>
             <title><![CDATA[Naročilo PCB in izdelava elektronike]]></title>
@@ -71,16 +141,6 @@ tekmovanja. CanSat je sestavljen iz treh delov, natisnjenih iz PLA plastike, ki 
             <category>Scorpius 2025</category>
         </item>
         <item>
-            <title><![CDATA[Coming soon]]></title>
-            <link>https://www.vegasat.si/blog/scorpius-5</link>
-            <guid>https://www.vegasat.si/blog/scorpius-5</guid>
-            <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[TBD]]></description>
-            <content:encoded><![CDATA[<p>TBD</p>
-]]></content:encoded>
-            <category>Scorpius 2025</category>
-        </item>
-        <item>
             <title><![CDATA[Testing our cansat]]></title>
             <link>https://www.vegasat.si/blog/testing-our-cansat</link>
             <guid>https://www.vegasat.si/blog/testing-our-cansat</guid>
@@ -110,8 +170,8 @@ tekmovanja. CanSat je sestavljen iz treh delov, natisnjenih iz PLA plastike, ki 
             <description><![CDATA[This post contains the 2 main documents we needed to submit to the ESA before the launch campaign. Critical Design Review (CDR) was submitted on 30th March and contains our idea of guided landing described in detail and the Pre Launch Report (PLR) that was submitted on 9th June and contains a description of every aspect of CanSat's operations.]]></description>
             <content:encoded><![CDATA[<p>This post contains the 2 main documents we needed to submit to the ESA before the launch campaign. Critical Design Review (CDR) was submitted on 30th March and contains our idea of guided landing described in detail and the Pre Launch Report (PLR) that was submitted on 9th June and contains a description of every aspect of CanSat's operations.</p>
 <!-- -->
-<p><a href="https://www.vegasat.si/assets/files/CDR2023-2f1d2a72c2fad31dfbd414f8763c1d02.pdf" target="_blank">Critical design review</a></p>
-<p><a href="https://www.vegasat.si/assets/files/PLR2023-0e6bc03a78bf68006d711c27201f32b2.pdf" target="_blank">Pre launch report</a></p>]]></content:encoded>
+<p><a href="https://www.vegasat.si/assets/files/CDR2023-2f1d2a72c2fad31dfbd414f8763c1d02.pdf" target="_blank" class="">Critical design review</a></p>
+<p><a href="https://www.vegasat.si/assets/files/PLR2023-0e6bc03a78bf68006d711c27201f32b2.pdf" target="_blank" class="">Pre launch report</a></p>]]></content:encoded>
             <category>VegaSat 2023</category>
         </item>
         <item>
@@ -125,8 +185,8 @@ tekmovanja. CanSat je sestavljen iz treh delov, natisnjenih iz PLA plastike, ki 
 <p>To begin with, let's explain our system in more detail. We will position 3 transmitters to known locations in advance of the takeoff. Because they all will transmit FM signal on the same frequency only one will get correctly received. Assume that is the signal transmitted by the closest transmitter. We want to go towards the target, so we have to push our can away from the transmitter.</p>
 <p>Since all locations of the transmitters will be chosen in advance and will be programmed in the controller we calculate the azimuth of the trust. With the help of the onboard compass, we can determine what power each of the 3 guiding motors has to move at.</p>
 <p>We devised our work into 3 parts.</p>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 1 - Design internal circuitry for pulse generation</summary><div><div class="collapsibleContent_i85q"><p>Once it was inevitable to use a transmitter, we immediately started planning our form of signal. We had 3 main ideas, either 3 distinct ASCII letters, 3 binary digits (like 1010 1010, 1100 1100, 1111 0000), or a square wave at 3 different frequencies. We decided on the latter because it's easy to generate even without a microcontroller (more on that note later) and has a hardware pulse counter. Hopefully, it won't hog the processor. The frequencies chosen were 600 Hz, 800 Hz and 1000 Hz; which is way less than a maximum of 40 MHz.</p><p>Since we want to have the ground transmitter done we still decided to use Arduino Nano as the signal source, but have plans to migrate to a 555-timer circuit if we end up with enough time.</p><p>To power everything we decided to use REV batteries with XT30 plug as we have multiple of them from another competition (<a href="https://firstglobal.si/" target="_blank" rel="noopener noreferrer">https://firstglobal.si/</a>). They output 12 V which means we can directly power the Arduino with it. With DIP switches you can select what frequency it transmits. We didn't yet know what we'll use for the radio transmitter, so we made our output signal line level (amplitude is 1 V) and we added a voltage divider to lower Arduino's 5 V to 1 V.</p><p>The circuit is accessible <a href="https://www.vegasat.si/assets/files/circuit-6b7f99267ccc4e0d028bdd339c5f3ede.png" target="_blank">here</a> and the code is <a href="https://www.vegasat.si/assets/files/pcnt-440c0d42df2b3572a81827b64ab47cbb.h" target="_blank">here</a>.</p></div></div></details>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 2 - Design antenna</summary><div><div class="collapsibleContent_i85q"><p>2nd big part of the work was to design an antenna. First, we tried a dipole. It worked, tho range was an obvious problem. We decided to build something more directional. Yagi-Uda antennas are perfect for that. We build dual polarised Yagi-Uda antenna since then it's less important how it's directed.</p><p>We model our antenna in MMANA software since it's quite simple to use, has many tutorials online and for what we needed is free to use. The model can be found <a href="https://www.vegasat.si/assets/files/antenna-3acc1fe65990a265342ba147b1d6f768.png" target="_blank">here</a>. The 3D emission diagram is found <a href="https://www.vegasat.si/assets/files/emission-f77b68b0542190221be78d54f7216a24.png" target="_blank">here</a>. We will build it out of measuring tape, PVC pipe, hot glue and zip ties.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 1 - Design internal circuitry for pulse generation</summary><div><div class="collapsibleContent_i85q"><p>Once it was inevitable to use a transmitter, we immediately started planning our form of signal. We had 3 main ideas, either 3 distinct ASCII letters, 3 binary digits (like 1010 1010, 1100 1100, 1111 0000), or a square wave at 3 different frequencies. We decided on the latter because it's easy to generate even without a microcontroller (more on that note later) and has a hardware pulse counter. Hopefully, it won't hog the processor. The frequencies chosen were 600 Hz, 800 Hz and 1000 Hz; which is way less than a maximum of 40 MHz.</p><p>Since we want to have the ground transmitter done we still decided to use Arduino Nano as the signal source, but have plans to migrate to a 555-timer circuit if we end up with enough time.</p><p>To power everything we decided to use REV batteries with XT30 plug as we have multiple of them from another competition (<a href="https://firstglobal.si/" target="_blank" rel="noopener noreferrer" class="">https://firstglobal.si/</a>). They output 12 V which means we can directly power the Arduino with it. With DIP switches you can select what frequency it transmits. We didn't yet know what we'll use for the radio transmitter, so we made our output signal line level (amplitude is 1 V) and we added a voltage divider to lower Arduino's 5 V to 1 V.</p><p>The circuit is accessible <a href="https://www.vegasat.si/assets/files/circuit-6b7f99267ccc4e0d028bdd339c5f3ede.png" target="_blank" class="">here</a> and the code is <a href="https://www.vegasat.si/assets/files/pcnt-440c0d42df2b3572a81827b64ab47cbb.h" target="_blank" class="">here</a>.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 2 - Design antenna</summary><div><div class="collapsibleContent_i85q"><p>2nd big part of the work was to design an antenna. First, we tried a dipole. It worked, tho range was an obvious problem. We decided to build something more directional. Yagi-Uda antennas are perfect for that. We build dual polarised Yagi-Uda antenna since then it's less important how it's directed.</p><p>We model our antenna in MMANA software since it's quite simple to use, has many tutorials online and for what we needed is free to use. The model can be found <a href="https://www.vegasat.si/assets/files/antenna-3acc1fe65990a265342ba147b1d6f768.png" target="_blank" class="">here</a>. The 3D emission diagram is found <a href="https://www.vegasat.si/assets/files/emission-f77b68b0542190221be78d54f7216a24.png" target="_blank" class="">here</a>. We will build it out of measuring tape, PVC pipe, hot glue and zip ties.</p></div></div></details>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Part 3 - Choose the right transmitter</summary><div><div class="collapsibleContent_i85q"><p>We chose SYN115 since that's what we already had on hand.</p></div></div></details>]]></content:encoded>
             <category>VegaSat 2023</category>
         </item>
@@ -161,11 +221,11 @@ tekmovanja. CanSat je sestavljen iz treh delov, natisnjenih iz PLA plastike, ki 
 <p>If you have multiple signals made of sine waves of multiple frequencies you can add all sinuses with the same frequency first and then add sums to get the sum of all signals. Sum of 2 sine waves with same frequency will have the lowest amplitude if amplitude of both of them is equal (it will be 0 if signals are 180° out of phase).</p>
 <p><img decoding="async" loading="lazy" alt="Graph" src="https://www.vegasat.si/assets/images/graph-a81327f3f7b1b212495808044ef744d8.gif" width="640" height="480" class="img_ev3q"></p>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Graph exlanation</summary><div><div class="collapsibleContent_i85q"><p>Although the graph shows 2 waves it works similarly with 3.</p><ul>
-<li>The light blue line shows the output signal of station 1</li>
-<li>The light green line shows the output signal of station 2</li>
-<li>The blue line shows the received signal from station 1</li>
-<li>The green line shows the received signal from station 2</li>
-<li>The purple line shows the sum of received signals
+<li class="">The light blue line shows the output signal of station 1</li>
+<li class="">The light green line shows the output signal of station 2</li>
+<li class="">The blue line shows the received signal from station 1</li>
+<li class="">The green line shows the received signal from station 2</li>
+<li class="">The purple line shows the sum of received signals
 For 3 stations just imagine one graph like this for every pair.</li>
 </ul></div></div></details>
 <p>The amplitude of the sum can be used to find the distance from centerpoint of transmitting stations to the receiver. If we have 3 of those differences, we can try to minimise all of them and when the amplitude if all received sine waves is smallest we know we hit the center of the triangle.</p>]]></content:encoded>
