@@ -2,7 +2,7 @@
 title: Prvi testni polet
 slug: beesat-prvi-testni-polet
 authors: [lin-cadez]
-tags: [2026-beesat]
+tags: [2025-beesat]
 image: /img/beesat/new-fc.jpg
 ---
 

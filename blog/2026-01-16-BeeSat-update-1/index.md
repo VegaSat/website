@@ -2,7 +2,7 @@
 title: Naš CanSat počasi nastaja
 slug: nas-cansat-pocasi-nastaja
 authors: [lin-cadez, jure-grcar]
-tags: [2026-beesat]
+tags: [2025-beesat]
 image: /img/beesat/cansat-development2.png
 ---
 

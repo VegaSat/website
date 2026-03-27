@@ -2,7 +2,7 @@
 title: BeeSat 2.0 in izboljšave zadnjih tednov
 slug: beesat-v2-in-izboljsave
 authors: [lin-cadez]
-tags: [2026-beesat]
+tags: [2025-beesat]
 image: /img/beesat/cansat-development-beeslika.png
 ---
 
